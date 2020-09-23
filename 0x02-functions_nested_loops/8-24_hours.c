@@ -1,7 +1,6 @@
 #include "holberton.h"
 /**
  * jack_bauer - prints the clock per each minute
- * @h: represents the hour
  * Return: void
  *
  */
