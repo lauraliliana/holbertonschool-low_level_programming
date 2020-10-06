@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * _strstr - locates a substring.
+ * @haystack: puntero
+ * @needle: pointer
+ * Return: a pointer to the beginning of the located substring.
  */
 char *_strstr(char *haystack, char *needle)
 {
