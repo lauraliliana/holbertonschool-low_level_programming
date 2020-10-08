@@ -17,13 +17,13 @@ int string_length(char *st)
  * @j: ending index
  * Return: boolean
  */
-int check_letters(char *str, int i, int j)
+int letters(char *str, int i, int j)
 {
 	if ((j - i) < 2)
 		return (str[i] == str[j] ? 1 : 0);
 	if (str[i] != str[j])
 		return (0);
-	return (check_letters(str, ++i, --j));
+	return (letters(str, ++i, --j));
 }
 /**
  * is_palindrome - checks if string is palindrom
@@ -36,5 +36,5 @@ int is_palindrome(char *s)
 
 	if (len < 2)
 		return (1);
-	return (check_letters(s, 0, --len));
+	return (letters(s, 0, --len));
 }
