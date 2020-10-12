@@ -8,7 +8,7 @@
 int main(int a, char **b)
 {
 	int i;
-	for (i = 0; i <= a; i++)
+	for (i = 0; i <= a; b++)
 	{
 		printf("%s\n", *b);
 	}
