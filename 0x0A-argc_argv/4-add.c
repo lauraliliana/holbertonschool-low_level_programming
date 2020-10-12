@@ -22,10 +22,8 @@ int main(int l, char *s[])
 		{
 			printf("Error\n");
 			return (1);
-			
 		}
 		sum += atoi(*s);
-		
 	}
 	printf("%d\n", sum);
 	return (0);
