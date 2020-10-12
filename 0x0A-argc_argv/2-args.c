@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
  * main - prints all args
- * @a: number of args
- * @b: args
+ * @l: number of args
+ * @s: args
  * Return: Always 0
  */
 int main(int l, char **s)
 {
-	while(l--)
+	while (l--)
 	{
 		printf("%s\n", *s++);
 	}

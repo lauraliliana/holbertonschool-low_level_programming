@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
  * main - Prints b
- * @a: number of args
- * @b: args
+ * @l: number of args
+ * @s: args
  * Return: Always 0
  */
-int main(int l, char **s)
+int main(int l, char *s[])
 {
 	printf("%s\n", *s);
 	(void)l;

@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - prints a
- * @a: number of args
- * @b: args
+ * @l: number of args
+ * @s: args
  * Return: Always 0
  */
 int main(int l, char **s)
