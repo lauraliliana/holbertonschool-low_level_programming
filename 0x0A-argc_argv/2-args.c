@@ -5,12 +5,11 @@
  * @b: args
  * Return: Always 0
  */
-int main(int a, char **b)
+int main(int l, char **s)
 {
-	int i;
-	for (i = 0; i <= a; b++)
+	while(l--)
 	{
-		printf("%s\n", *b);
+		printf("%s\n", *s++);
 	}
 	return (0);
 }

@@ -5,9 +5,9 @@
  * @b: args
  * Return: Always 0
  */
-int main(int a, char **b)
+int main(int l, char **s)
 {
-	printf("%s\n", *b);
-	(void)a;
+	printf("%s\n", *s);
+	(void)l;
 	return (0);
 }
