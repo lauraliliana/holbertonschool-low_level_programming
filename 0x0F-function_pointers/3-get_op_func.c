@@ -13,13 +13,12 @@ int (*get_op_func(char *s))(int, int)
 		{"/", op_div},
 		{"%", op_mod},
 		{NULL, NULL}
-		
 	};
 	int i = 0;
+	
 	while ((ops[i].op[0] != s[0]))
 		i++;
 	if (i > 5)
 		return (NULL);
 	return (ops[i].f);
-	
 }
