@@ -43,9 +43,9 @@ void print_all(const char * const format, ...)
 			if (format[i] && orders)
 			{
 				printf(", ");
-			}			
+			}
 		}
-		va_end(alist);		
+		va_end(alist);
 	}
-	printf("\n");	
+	printf("\n");
 }
