@@ -1,8 +1,8 @@
 #include <stdarg.h>
 /**
- *sum_them_all - Sums all the given arguments
+ *sum_them_all - Sums all arguments
  *@n: The number of arguments
- *Return: Always 0
+ *Return: Result
  */
 int sum_them_all(const unsigned int n, ...)
 {
