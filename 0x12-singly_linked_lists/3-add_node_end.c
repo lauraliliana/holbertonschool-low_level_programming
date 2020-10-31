@@ -8,7 +8,7 @@
 int _strlen(char *s)
 {
 	int i = 1;
-	
+
 	while (s[i] != '\0')
 	{
 		i++;
@@ -26,7 +26,7 @@ char *_strdup(const char *str)
 {
 	int l = 0, i;
 	char *s;
-	
+
 	if (str == NULL)
 		return (0);
 	while (*(str + l))
@@ -51,7 +51,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	char *tmp;
 	list_t *tmph;
 	list_t *new_node = malloc(sizeof(list_t));
-	
+
 	if (new_node == 0)
 		return (0);
 	tmph = *head;

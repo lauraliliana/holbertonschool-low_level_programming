@@ -8,7 +8,7 @@
 size_t list_len(const list_t *h)
 {
 	unsigned int size = 0;
-	
+
 	while (h)
 		h = h->next, size++;
 	return (size);
