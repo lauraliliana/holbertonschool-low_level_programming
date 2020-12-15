@@ -9,7 +9,9 @@ void free_dlistint(dlistint_t *head)
 {
 dlistint_t *node_to_f;
 while (head)
-node_to_f = head->next;
-free(head);
-head = node_to_f;
+{
+node_to_f = head;
+head = head->next;
+free(node_to_f);
+}
 }
