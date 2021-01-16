@@ -26,6 +26,7 @@ if (node)
 {
 if (comma)
 printf(", ");
+
 while (node->next)
 {
 printf("'%s': '%s', ", node->key, node->value);
